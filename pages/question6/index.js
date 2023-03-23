@@ -15,6 +15,12 @@ export default function Question6() {
         Longer-term, I'd surface the issues for correction, depending on
         priority and severity, or submit a fix myself if feasible.
       </p>
+      <Link href="/question5">
+        <button>Previous</button>
+      </Link>
+      <Link href="/question7">
+        <button>Next</button>
+      </Link>
     </div>
   );
 }

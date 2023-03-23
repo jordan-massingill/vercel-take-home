@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Question1() {
   return (
     <div>
@@ -9,6 +11,12 @@ export default function Question1() {
         like to spend more time understanding and helping users, and learning
         how that translates into product decisions.
       </p>
+      <Link href="/">
+        <button>Previous</button>
+      </Link>
+      <Link href="/question2">
+        <button>Next</button>
+      </Link>
     </div>
   );
 }

@@ -25,6 +25,12 @@ export default function Question4() {
         completed, so if you want to individualize your app's behavior based on
         certain user conditions, you can.
       </p>
+      <Link href="/question3">
+        <button>Previous</button>
+      </Link>
+      <Link href="/question5">
+        <button>Next</button>
+      </Link>
     </div>
   );
 }

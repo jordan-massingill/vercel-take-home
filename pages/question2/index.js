@@ -23,6 +23,12 @@ export default function Question2() {
         requests we were getting, as well as landing us several hold-out
         contracts that wouldn't have otherwise used our tool.
       </p>
+      <Link href="/question1">
+        <button>Previous</button>
+      </Link>
+      <Link href="/question3">
+        <button>Next</button>
+      </Link>
     </div>
   );
 }

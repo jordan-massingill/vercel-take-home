@@ -31,6 +31,12 @@ export default function Question3() {
         client- and server-side-rendering, etc) and makes building more
         enjoyable and less burdensome than building without it.
       </p>
+      <Link href="/question2">
+        <button>Previous</button>
+      </Link>
+      <Link href="/question4">
+        <button>Next</button>
+      </Link>
     </div>
   );
 }

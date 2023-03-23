@@ -21,6 +21,12 @@ export default function Question5() {
         leading up to this issue? A screenshot of your error logs would also be
         great! Thanks for writing in! Jordan
       </p>
+      <Link href="/question4">
+        <button>Previous</button>
+      </Link>
+      <Link href="/question6">
+        <button>Next</button>
+      </Link>
     </div>
   );
 }

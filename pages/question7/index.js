@@ -11,6 +11,9 @@ export default function Question6() {
         I built the project before reading the docs and decided to save time by
         not going back.
       </p>
+      <Link href="/question6">
+        <button>Previous</button>
+      </Link>
     </div>
   );
 }

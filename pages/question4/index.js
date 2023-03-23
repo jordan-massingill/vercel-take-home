@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Question4() {
   return (
     <div>
